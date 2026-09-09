@@ -14,7 +14,6 @@ app.get('/api/calculo/:monto', (req, res) => {
         });
     }
 
-    // Cálculos según valores de El Salvador (SV)
     const iva = montoNumerico * 0.13;   // IVA 13%
     const renta = montoNumerico * 0.10; // Renta 10%
 
